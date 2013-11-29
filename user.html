@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <link href="site.css" rel="stylesheet">
+
+<body>
+<center>
+<h1>USER DETAILS</h1>
+</center>
+
+<form action="cert.php" method="post" enctype="multipart/form-data">
+Name:<input type="text" name="name"><br>
+Purpose:<input type="text" name="pur"><br>
+
+<label for="file">Publickey:</label>
+<input type="file" name="file" id="file"><br>
+
+<input type="submit" name="submit" value="Get Certificate"><br>
+</form>
+
+<form action="home.php" method="post">
+<input type="submit" name="submit" value="HOME"><br>
+</form>
+
+</body>
+</html>
